@@ -80,4 +80,9 @@ public String returnLoginStatus(String username,String password) {
         return "Username or password incorrect, please try again.";
         }
     }
+
+//Added getter for user
+public User getUser() {
+    return user;
+}
 }
